@@ -1,0 +1,70 @@
+.stn-one {
+    width: 70%;
+    height: 95%;
+    padding-bottom: 1rem;
+}
+.section-A {
+    background-color: rgb(33, 33, 75);
+    width: 100%;
+    padding-left: 20rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+}
+.text{
+    padding-top: 2rem;
+}
+.section-B {
+    width: 100%;
+    padding-left: 20rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    background-color:  rgb(215, 213, 231);
+}
+.play {
+    background-color: rgb(83, 162, 83);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 93%;
+
+
+}
+
+.play-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.7rem;
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.like {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    
+}
+
+.more {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    
+
+}
+.pic{
+    width: 5rem;
+    height: 7.5rem;
+    margin-right: 1.5rem;
+    margin-top: 8.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 100%;
+}
+.text-two{
+    margin-top: 8.5rem;
+}
+.txt{
+    padding-top:2.5rem;
+}

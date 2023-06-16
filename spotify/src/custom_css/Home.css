@@ -1,0 +1,27 @@
+.layout-specing{
+    padding: 0px 0px 0px 0px !important;
+}
+
+.card{
+    width: 12rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.card-img-top{
+    height: 170px !important;
+}
+
+.row-one{
+    padding: 3rem 2rem 2rem !important;
+}
+.row-two{
+    padding: 1rem 1rem 1rem!important; 
+    
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60px;
+    width: 100px;
+}

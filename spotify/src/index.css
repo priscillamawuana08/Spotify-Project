@@ -1,0 +1,16 @@
+.sidebar-content{
+  height: calc(100% - 60px);
+}
+
+.Notifications{
+  height: 320px; 
+  width: 290px;
+}
+
+.profile{
+  min-width: 200px;
+}
+
+.signup{
+  border: none !important;
+}
