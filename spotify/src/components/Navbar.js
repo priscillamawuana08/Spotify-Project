@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SignIn from "./SignIn";
 import "../index.css";
 
 function Navbar() {
@@ -29,15 +30,16 @@ function Navbar() {
                         </div>
 
                         <ul class="list-unstyled mb-0">
-                            <li class="list-inline-item mb-0 ms-1">
+                            {/* <li class="list-inline-item mb-0 ms-1">
                                 <div class="dropdown dropdown-primary">
                                     <button type="button" class="btn btn-soft-light signup">Sign up</button>
                                 </div>
-                            </li>
+                            </li> */}
 
-                            <li class="list-inline-item mb-0 ms-1">
+                            <li class="list-inline-item mb-0 mt-0 ms-1">
                                 <div class="dropdown dropdown-primary">
-                                    <button type="button" class="btn btn-soft-light">Log in</button>
+                                    <SignIn/>
+                                    {/* <button type="button" class="btn btn-soft-light">Log in</button> */}
                                 </div>
                             </li>
                         </ul>
