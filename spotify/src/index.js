@@ -10,6 +10,7 @@ import PagesLayout from './pages/PagesLayout';
 import Home from './pages/Home';
 import PlayList from './pages/PlayList';
 import Track from './pages/Track';
+import CreatePlaylist from './pages/CreatePlaylist';
 
 
 export default function App(){
@@ -20,7 +21,9 @@ export default function App(){
         <Route index element={<Home />}/>
         <Route path='playlist' element={<PlayList />}/>
         <Route path='track' element={<Track />}/>
+        <Route path='createplaylist' element={<CreatePlaylist />}/>
       </Route>
+
       {/* <Route path='/' element={<PagesLayout />}>
       </Route> */}
     </Routes>

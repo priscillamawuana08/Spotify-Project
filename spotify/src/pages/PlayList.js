@@ -60,7 +60,7 @@ const PlayList = () => {
                       </div>
                       <td>Active</td>
                       <td>27/05/2021</td>
-                      <td>03:37</td>
+                      <td><i class="ti ti-heart"></i>03:37<i class="fa-thin fa-ellipsis"></i></td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
