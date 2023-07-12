@@ -1,0 +1,22 @@
+
+.sh{
+    background-color:  rgb(227, 224, 250);
+    width: 100%;
+    height: 100%;
+    padding-left: 20rem;
+    padding-right: 5rem;
+    padding-top: 3.5rem;
+
+}
+.shc{
+    width: 15rem;
+    height: 13rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.card-img{
+    width: 15rem;
+    height: 13rem;
+}

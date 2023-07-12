@@ -39,7 +39,7 @@ const PlayList = () => {
 
                 </div>
               </div>
-              <div>
+              <div className="tb">
                 <table class="table">
                   <thead>
                     <tr>

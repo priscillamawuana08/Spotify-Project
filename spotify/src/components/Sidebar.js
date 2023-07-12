@@ -19,16 +19,16 @@ function Sidebar(){
         
                     <ul class="sidebar-menu">
                         <li class="sidebar">
-                            <Link to="#!"><i class="ti ti-home me-2"></i>Home</Link>
+                            <Link to="/"><i class="ti ti-home me-2"></i>Home</Link>
                         </li>
                         <li class="sidebar">
-                            <Link to="#!"><i class="ti ti-search me-2"></i>Search</Link>
+                            <Link to="/search"><i class="ti ti-search me-2"></i>Search</Link>
                         </li>
                         <li class="sidebar">
-                            <Link to="#!"><i class="ti ti-apps me-2"></i>Your Library</Link>
+                            <Link to="/profile"><i class="ti ti-apps me-2"></i>Your Library</Link>
                         </li>
                         <li class="sidebar">
-                            <Link to="#!"><i class="ti ti-plus me-2"></i>Create Playlist</Link>
+                            <Link to="/createplaylist"><i class="ti ti-plus me-2"></i>Create Playlist</Link>
                         </li>
                         <li class="sidebar">
                             <Link to="#!"><i class="ti ti-heart me-2"></i>Like Songs</Link>

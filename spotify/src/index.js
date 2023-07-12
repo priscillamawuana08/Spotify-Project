@@ -11,6 +11,8 @@ import Home from './pages/Home';
 import PlayList from './pages/PlayList';
 import Track from './pages/Track';
 import CreatePlaylist from './pages/CreatePlaylist';
+import Profile from './pages/Profile';
+import Search from './pages/Search';
 
 
 export default function App(){
@@ -19,9 +21,11 @@ export default function App(){
     <Routes>
       <Route path='/' element={<PagesLayout />}>
         <Route index element={<Home />}/>
-        <Route path='playlist' element={<PlayList />}/>
-        <Route path='track' element={<Track />}/>
-        <Route path='createplaylist' element={<CreatePlaylist />}/>
+        <Route exact path='playlist' element={<PlayList />}/>
+        <Route exact path='track' element={<Track />}/>
+        <Route exact path='createplaylist' element={<CreatePlaylist />}/>
+        <Route exact path='profile' element={<Profile />}/>
+        <Route exact path='search' element={<Search />}/>
       </Route>
 
       {/* <Route path='/' element={<PagesLayout />}>

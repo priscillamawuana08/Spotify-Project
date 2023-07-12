@@ -34,7 +34,7 @@ const CreatePlaylist = () => {
 
                     </div>
                 </div>
-                <div>
+                <div className="tb">
                     <table class="table">
                         <thead>
                             <tr>
@@ -80,8 +80,8 @@ const CreatePlaylist = () => {
                         </tbody>
                     </table>
                     <div className="">
-                        <div className="col-9">
-                            <p className="find">Find more</p>
+                        <div class="mb-0 col-9 position-relative">
+                            <p className="text-muted">Find more</p>
                         </div>
                         <div className="txt">
                             <h3>Recommended</h3>
