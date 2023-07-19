@@ -1,6 +1,10 @@
 import React, { useState } from "react";
+// import color1 from './asserts/images/color1.png';
+import { imagesData } from "./data";
+
+
 import "../index.css";
-import "../pages/asserts/css/Search.css";
+import "../pages/asserts/css/Search.css"
 
 const Search = () => {
 
@@ -24,149 +28,20 @@ const Search = () => {
                     value={searchInput} />
 
                 <div className="row">
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white shc">
-                        <img src="https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg" class="card-img" alt="..." />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-
-                        </div>
-                    </div>
+                    {imagesData.map((data)=>(
+                             <div class="card bg-dark text-white shc">
+                             <img src={data.Image} class="card-img" alt="..." />
+                             <div class="card-img-overlay">
+                                 <h5 class="card-title">Card title</h5>
+     
+                             </div>
+                         </div>
+                        
+                    ))}
+                   
+                   <div>
+                    <h3>vgddkhvehgfjsdjkbfhbvvbglerfjljh  dcdvchdvcnh</h3>
+                   </div>
                 </div>
             </div>
 
